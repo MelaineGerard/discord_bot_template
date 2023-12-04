@@ -1,0 +1,25 @@
+{
+  "name": "discord_bot_template",
+  "version": "1.0.0",
+  "description": "Un template de bot discord en typescript",
+  "main": "dist/Bot.js",
+  "scripts": {
+    "start": "tsc && node dist/Bot.js",
+    "build": "tsc",
+    "dev": "nodemon --exec \"npm start\" -e ts,js,json -w src"
+  },
+  "keywords": [],
+  "author": "Melaine Gérard <pro@melaine-gerard.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
